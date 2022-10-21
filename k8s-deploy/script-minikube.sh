@@ -12,7 +12,7 @@ docker push marneumann/projeto-k8s-database:1.0
 
 echo "Criando servicos no cluster kubernetes..."
 
-kubectl apply -f ./services.yml
+kubectl apply -f ./services-minikube.yml
 
 echo "Criando os deployments..."
 
